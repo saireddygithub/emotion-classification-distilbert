@@ -103,7 +103,6 @@ emotion-classification-distilbert/
 ├── Final_Sai_Kumar_Reddy.ipynb   # Complete end-to-end notebook
 ├── README.md
 ├── requirements.txt
-└── .gitignore
 ```
 
 Running the notebook creates an `emotion_assignment_outputs/` directory (and a matching `.zip`) containing the saved baseline pipeline, both DistilBERT checkpoints, all figures in PNG and PDF, per-class and aggregate metric tables, test predictions, error analysis, and `run_metadata.json` recording the configuration, dataset file hashes and package versions. These artefacts are generated at runtime and are not committed to the repository.
